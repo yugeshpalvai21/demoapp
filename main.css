@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Header Section Styling */
 #header-section {
   height: 90vh;
   background-image: url('Hero.png');
@@ -29,7 +30,29 @@
 #header-section h1 {
   margin: auto;
   color: white;
-  padding-top: 40%;
+  padding-top: 20%;
   font-size: 50px;
   font-weight: bold;
+}
+
+/* Nav Section Styling */
+
+#nav-section {
+  width: 100%;
+  min-height: 10vh;
+}
+
+#nav-section ul{
+  list-style-type: none;
+  display: flex;
+}
+
+#nav-section ul li {
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#nav-section ul li a {
+  text-decoration: none;
 }
