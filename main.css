@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header-section {
+  height: 90vh;
+  background-image: url('Hero.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  padding: 40px;
+}
+
+.logo img {
+  float: left
+}
+
+.logo button {
+  float: right;
+  padding: 15px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+#header-section h1 {
+  margin: auto;
+  color: white;
+  padding-top: 40%;
+  font-size: 50px;
+  font-weight: bold;
+}
